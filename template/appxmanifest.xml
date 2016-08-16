@@ -31,7 +31,7 @@
        Square44x44Logo="assets\SampleAppx.44x44.png"
        Description="${packageDescription}">
         <uap:DefaultTile Wide310x150Logo="assets\SampleAppx.310x150.png" />
-        <uap:SplashScreen BackgroundColor="#464646" Image="assets\SampleAppx.SplashScreen.png" />
+        <uap:SplashScreen BackgroundColor="${packageBackgroundColor}" Image="assets\SampleAppx.SplashScreen.png" />
       </uap:VisualElements>
     </Application>
   </Applications>
